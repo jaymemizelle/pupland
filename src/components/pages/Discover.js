@@ -1,15 +1,19 @@
 import ImageSource from "../utils/API";
-import Card from "./Card"
+import Card from "../Card/Card"
 import React, {PureComponent} from "react";
 
-const puppyImg = (
-    <img alt="puppy" src={`${ImageSource()}`} />
-);
+// const puppyImg = (
+//     <img alt="puppy" src={`${ImageSource()}`} />
+// );
 
 class Discover extends PureComponent {
     state = {
-      puppy: puppyImg
+      puppy: ''
     };
+
+    imURL = ImageSource().then((res) => {
+      this.setState({puppy: res})
+    })
   
     render() {
       return (
@@ -21,8 +25,6 @@ class Discover extends PureComponent {
       );
     }
   }
-
-// console.log(ImageSource());
 
 // function Discover() {
 //     return (
