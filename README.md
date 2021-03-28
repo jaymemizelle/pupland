@@ -20,7 +20,7 @@ This is a responsive web applicaiton that is built with React. It allows the use
 ``` npm i ```
 
 ## Deployment
-* Deployed Application URL:
+* Deployed Application URL: https://whispering-waters-36714.herokuapp.com/
 
 ## Usage
 Click on the deployed link and begin liking puppies!
@@ -28,7 +28,6 @@ Click on the deployed link and begin liking puppies!
 ## Technologies
 * JavaScript 
 * Node JS
-* Express
 * React 
 * React-Bootstrap
 * CSS3
