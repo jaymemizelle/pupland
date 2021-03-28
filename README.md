@@ -27,6 +27,8 @@ Click on the deployed link and begin liking puppies!
 
 ## Technologies
 * JavaScript 
+* Node JS
+* Express
 * React 
 * React-Bootstrap
 * CSS3
