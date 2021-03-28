@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve our public folder/static files
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, 'build')));
 
 
 app.listen(PORT, () => console.log(`App listening on URL: http://localhost:${PORT}`));
