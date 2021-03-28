@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.container img {
+  display: block;
+}
+
+.fa {
+  background-color: #9ec9ee;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: x-large;
+  left: 500px;
+  color: green;
+  z-index: 10;
+}
+
+.fa2 {
+  background-color: #9ec9ee;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: x-large;
+  color: red;
+  z-index: 10;
+  left: 200px;
+}
+/*# sourceMappingURL=discover.css.map */
