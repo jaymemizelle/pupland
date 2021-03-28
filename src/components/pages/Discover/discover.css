@@ -8,26 +8,38 @@
 }
 
 .fa {
-  background-color: #9ec9ee;
+  background-color: #b8d6e9;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   border-radius: 50%;
-  padding: 4px;
-  font-size: x-large;
-  left: 500px;
+  padding: 6px;
+  font-size: 2.5rem;
+  left: 750px;
   color: green;
   z-index: 10;
 }
 
+.fa:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
 .fa2 {
-  background-color: #9ec9ee;
+  background-color: #b8d6e9;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   border-radius: 50%;
-  padding: 4px;
-  font-size: x-large;
+  padding: 6px;
+  font-size: 2.5rem;
   color: red;
   z-index: 10;
-  left: 200px;
+  left: 350px;
+}
+
+.fa2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
 }
 /*# sourceMappingURL=discover.css.map */

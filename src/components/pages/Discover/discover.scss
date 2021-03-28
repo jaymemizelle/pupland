@@ -6,17 +6,21 @@
     display: block; 
 }
 @mixin icon {
-    background-color: rgb(158, 201, 238);
+    background-color: rgb(184, 214, 233);
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     border-radius: 50%;
-    padding: 4px;
-    font-size: x-large;
+    padding: 6px;
+    font-size: 2.5rem;
+    &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
 }
 
 .fa {   
     @include icon();
-    left: 500px;
+    left: 750px;
     color: green;
     z-index: 10;
 }
@@ -24,5 +28,5 @@
     @include icon();
     color: red;
     z-index: 10;
-    left: 200px;
+    left: 350px;
 }

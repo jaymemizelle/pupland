@@ -4,10 +4,10 @@ import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
-import Home from "./components/pages/Home";
-import Discover from "./components/pages/Discover";
-import Search from "./components/pages/Search";
-import Contact from "./components/pages/Contact";
+import Home from "./components/pages/Home/Home";
+import Discover from "./components/pages/Discover/Discover";
+import Search from "./components/pages/Search/Search";
+import Contact from "./components/pages/Contact/Contact";
 
 
 function App() {
