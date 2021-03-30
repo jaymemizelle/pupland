@@ -48,22 +48,3 @@ function Search() {
 }
 
 export default Search;
-
-// class Discover extends PureComponent {
-//     state = {
-//       puppy: ''
-//     };
-
-//     imURL = ImageSource().then((res) => {
-//       this.setState({puppy: res})
-//     })
-
-//     render() {
-//       return (
-//         <div>
-//             <Card heading="Do you like this puppy?" children={this.state.puppy}/>
-//         </div>
-
-//       );
-//     }
-//   }

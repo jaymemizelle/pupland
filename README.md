@@ -32,6 +32,8 @@ Click on the deployed link and begin liking puppies!
 * React-Bootstrap
 * CSS3
 * Sass/Scss
+* Axios
+* Dog API
 
 ## License
 
