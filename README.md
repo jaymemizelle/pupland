@@ -51,6 +51,6 @@ Click on the deployed link and begin liking puppies!
 
 ## Questions
 For additional questions please contact:
-* Jayme Mzielle
-* Email: jayme.coder@gmail.com
-* https://github.com/jaymemizelle
+* The Privacy Dev
+* Email: theprivacydev@protonmail.com
+* https://github.com/theprivacydev
